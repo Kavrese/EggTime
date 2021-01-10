@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         val builder = NotificationCompat.Builder(
             applicationContext, "101"
         )
-            .setSmallIcon(R.drawable.icon)
+            .setSmallIcon(R.drawable.egg)
             .setBadgeIconType(NotificationCompat.BADGE_ICON_SMALL)
             .setContentTitle(title)
             .setContentIntent(pIntent)
